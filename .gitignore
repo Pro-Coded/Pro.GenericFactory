@@ -3,3 +3,6 @@
 ################################################################################
 
 /packages
+/.vs/Pro.GenericFactory/v14/.suo
+/Pro.GenericFactory.Tests/bin/Debug
+/Pro.GenericFactory.Tests/obj/Debug
