@@ -10,7 +10,7 @@ A partner project, Pro.FastBus, will be released shortly, which can be used in c
 
 #Usage
 
-Step 1. 
+####Step 1. 
 
 Register the class to be instantiated, using the generic Register method specifying the Type, and supplying a string id, and array of Types for any paramaters. Examples are listed below:
 
@@ -23,7 +23,7 @@ Register the class to be instantiated, using the generic Register method specify
     GenericFactory.Register<EntityPerformanceTest>("EntityPerformanceTestKey", new[] { typeof(int), typeof(List<int>) });
 
 
-Step 2. 
+####Step 2. 
 
 Instantiate an instance of a class using the generic CreateInstance method, specifying the Type, and supplying a string id, and any params.
 
@@ -42,23 +42,25 @@ Basic performance tests are included which can be used to compare time to instan
 
 Sample results, running the performance tests on an Azure VM - Standard DS3 v2 (4 cores, 14 GB memory).
 
-GenericFactory
+####GenericFactory
 
 10,000 instantiations 0.0007806 seconds
 
 1,000,000 instantiations 0.0827468 seconds
 
-Concrete New
+
+####Concrete New
 
 10,000 instantiations 0.0000559 seconds
 
 1,000,000 instantiations 0.0121796 seconds
 
 
-Suggestions for improvement always welcome!
+
+###Suggestions for improvement always welcome!
+
 
 --
-
 David Paul McQuiggin
 
 Pro-Coded
