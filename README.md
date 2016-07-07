@@ -27,8 +27,9 @@ Step 2.
 
 Instantiate an instance of a class using the generic CreateInstance method, specifying the Type, and supplying a string id, and any params.
 
-    var instance = GenericFactory.CreateInstance<EntityPerformanceTest>(Constants.EntityPerformanceTestKey, 1, list);
-
+    var instance = GenericFactory.CreateInstance<EntityPerformanceTest>("EntityPerformanceTestKey", 1, list);
+    
+    var instance = GenericFactory.CreateInstance<TAggregate>(aggregateTypeName, uid);
 
 The project uses Fasterflect to create the ConstructorInvoker:
 http://fasterflect.codeplex.com
