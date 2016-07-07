@@ -40,9 +40,24 @@ The ConstructorInvoker is then cached in a static dictionary, and accessed via a
 
 Basic performance tests are included which can be used to compare time to instantiate x number of classes, against using 'new' of a concrete type.
 
-For 10,000 instantiations, GenericFactory is approximately 1/10th the speed of a concrete 'new'.
+Samples results, running the performance tests on an Azure VM (2 Core, 7 GB, D Servies V2).
 
-For 1,000,000 instantiations, GenericFactory is approximately 1/4th the speed of a concrete 'new'.
+GenericFactory
+
+10,000 instantiations 0.0007806 seconds
+1,000,000 instantiations 0.0827468 seconds
+
+Concrete New
+
+10,000 instantiations 0.0000559 seconds
+1,000,000 instantiations 0.0121796 seconds
+
+
+Suggestions for improvement always welcome!
+
+David Paul McQuiggin
+Pro-Coded
+
 
 
 
