@@ -45,11 +45,13 @@ Sample results, running the performance tests on an Azure VM - Standard DS3 v2 (
 GenericFactory
 
 10,000 instantiations 0.0007806 seconds
+
 1,000,000 instantiations 0.0827468 seconds
 
 Concrete New
 
 10,000 instantiations 0.0000559 seconds
+
 1,000,000 instantiations 0.0121796 seconds
 
 
