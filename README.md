@@ -56,13 +56,11 @@ Sample results, running the performance tests on an Azure VM - Standard DS3 v2 (
 1,000,000 instantiations 0.0121796 seconds
 
 
-###Suggestions for improvement always welcome!
-
 
 --
-David Paul McQuiggin
+**All Feedback Welcome!**
 
-Pro-Coded
+*David Paul McQuiggin, Pro-Coded.*
 
 
 
