@@ -22,8 +22,8 @@
             GenericFactory.Register<EntityDoubleConstructor>(Constants.EntityDoubleConstructorKey1, new[] { typeof(int) });
             GenericFactory.Register<EntityDoubleConstructor>(Constants.EntityDoubleConstructorKey2, new[] { typeof(string) });
             GenericFactory.Register<EntityBaseSingleConstructor>(Constants.EntityBaseSingleConstructorKey, new[] { typeof(int) });
-            GenericFactory.Register<EntityBaseDoubleConstructor>(Constants.EntityBaseDoubleConstructorKey1, new[] { typeof(int) });
-            GenericFactory.Register<EntityBaseDoubleConstructor>(Constants.EntityBaseDoubleConstructorKey2, new[] { typeof(string) });
+            GenericFactory.Register<EntityInheritedDoubleConstructor>(Constants.EntityInheritedDoubleConstructorKey1, new[] { typeof(int) });
+            GenericFactory.Register<EntityInheritedDoubleConstructor>(Constants.EntityInheritedDoubleConstructorKey2, new[] { typeof(string) });
             GenericFactory.Register<EntityPerformanceTest>(Constants.EntityPerformanceTestKey, new[] { typeof(int), typeof(List<int>) });
         }
 

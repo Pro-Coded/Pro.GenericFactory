@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Shouldly, Version=2.8.0.0, Culture=neutral, PublicKeyToken=6042cbcb05cbc941, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shouldly.2.8.0\lib\net40\Shouldly.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
       <HintPath>..\packages\xunit.abstractions.2.0.0\lib\net35\xunit.abstractions.dll</HintPath>
@@ -67,14 +71,16 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Constants.cs" />
-    <Compile Include="Entities\EntityNoConstructor - Copy.cs" />
+    <Compile Include="Entities\EntityPerformanceTest.cs" />
     <Compile Include="Entities\EntityNoConstructor.cs" />
     <Compile Include="Entities\EntityDoubleConstructor.cs" />
     <Compile Include="Entities\EntitySingleConstructor.cs" />
-    <Compile Include="Entities\EntityBaseDoubleConstructor.cs" />
+    <Compile Include="Entities\EntityInheritedDoubleConstructor.cs" />
     <Compile Include="Entities\EntityBaseSingleConstructor.cs" />
+    <Compile Include="TestCollectionStub.cs" />
     <Compile Include="Infrastructure\TestsFixture.cs" />
     <Compile Include="Infrastructure\XunitTraceListener.cs" />
+    <Compile Include="InstanceCreationTests.cs" />
     <Compile Include="PerformanceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
