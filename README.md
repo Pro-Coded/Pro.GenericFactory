@@ -6,6 +6,8 @@ A Test project is included to verify class instantiation including multiple cons
 
 GenericFactory is especially suited to systems architected using DDD, CQRS, CQRS+ES approaches, where many thousands of objects are instantiated.
 
+A partner project, Pro.FastBus, will be released shortly, which can be used in conjunction with GenericFactory for Command dispatching, and Aggregate instance instantiation.
+
 #Usage
 
 Step 1. 
