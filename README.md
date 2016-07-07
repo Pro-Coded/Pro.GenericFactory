@@ -38,7 +38,7 @@ The ConstructorInvoker is then cached in a static dictionary, and accessed via a
 
 #Performance
 
-Basic performance tests are included which can be used to compare time to instantiate x number of classes, against using 'new' of a concrete type. Please test your own specific circumstances, and be aware that at these low time values, many other factors may influence results.
+Basic performance tests are included which can be used to compare time to instantiate x number of classes, against using 'new' of a concrete type. Please test your own specific circumstances, and be aware that at these low time values, many other factors may influence results (Garbage Collection can have a significant impact).
 
 Sample results, running the performance tests on an Azure VM - Standard DS3 v2 (4 cores, 14 GB memory).
 
@@ -54,7 +54,6 @@ Sample results, running the performance tests on an Azure VM - Standard DS3 v2 (
 10,000 instantiations 0.0000559 seconds
 
 1,000,000 instantiations 0.0121796 seconds
-
 
 
 ###Suggestions for improvement always welcome!
