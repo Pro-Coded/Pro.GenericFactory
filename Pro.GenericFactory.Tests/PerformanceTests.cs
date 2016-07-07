@@ -16,7 +16,7 @@ namespace Pro.GenericFactory.Tests
 
     #endregion
 
-    [Collection("Tests")]
+    [Collection("Performance Tests")]
     public class PerformanceTests //: IClassFixture<TestsFixture>
     {
         #region Fields

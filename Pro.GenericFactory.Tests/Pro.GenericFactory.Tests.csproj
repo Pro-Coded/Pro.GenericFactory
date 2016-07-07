@@ -70,14 +70,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
+    <Compile Include="Infrastructure\Constants.cs" />
     <Compile Include="Entities\EntityPerformanceTest.cs" />
     <Compile Include="Entities\EntityNoConstructor.cs" />
     <Compile Include="Entities\EntityDoubleConstructor.cs" />
     <Compile Include="Entities\EntitySingleConstructor.cs" />
     <Compile Include="Entities\EntityInheritedDoubleConstructor.cs" />
     <Compile Include="Entities\EntityBaseSingleConstructor.cs" />
-    <Compile Include="TestCollectionStub.cs" />
+    <Compile Include="Infrastructure\TestCollectionStubs.cs" />
     <Compile Include="Infrastructure\TestsFixture.cs" />
     <Compile Include="Infrastructure\XunitTraceListener.cs" />
     <Compile Include="InstanceCreationTests.cs" />

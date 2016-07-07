@@ -1,4 +1,4 @@
-﻿namespace Pro.GenericFactory.Tests
+﻿namespace Pro.GenericFactory.Tests.Infrastructure
 {
     public static class Constants
     {
